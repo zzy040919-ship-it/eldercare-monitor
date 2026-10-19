@@ -1,0 +1,23 @@
+Downloading official MediaPipe Pose Landmarker full model...
+test_initial_zone_occupancy_and_reentry (test_system.SystemTests.test_initial_zone_occupancy_and_reentry) ... ok
+test_invalid_configuration (test_system.SystemTests.test_invalid_configuration) ... ok
+test_low_visibility_and_bounds (test_system.SystemTests.test_low_visibility_and_bounds) ... ok
+test_review_history_and_reopen (test_system.SystemTests.test_review_history_and_reopen) ... ok
+test_scenarios (test_system.SystemTests.test_scenarios) ... ok
+test_time_gap_and_invalid_timestamp (test_system.SystemTests.test_time_gap_and_invalid_timestamp) ... ok
+test_unknown_resets_continuous_timers (test_system.SystemTests.test_unknown_resets_continuous_timers) ... ok
+test_event_media_and_portable_paths (test_integration.IntegrationTests.test_event_media_and_portable_paths) ... ok
+test_gui_review_region_and_stop (test_integration.IntegrationTests.test_gui_review_region_and_stop) ... ok
+test_setup_error_is_recorded (test_integration.IntegrationTests.test_setup_error_is_recorded) ... ok
+test_stop_finalizes_short_clip (test_integration.IntegrationTests.test_stop_finalizes_short_clip) ... ok
+test_config_file_and_cli_override (test_runtime.RuntimeTests.test_config_file_and_cli_override) ... ok
+test_delegate_auto_fallback_and_forced_gpu (test_runtime.RuntimeTests.test_delegate_auto_fallback_and_forced_gpu) ... ok
+test_event_signal_survives_preview_queue_overflow (test_runtime.RuntimeTests.test_event_signal_survives_preview_queue_overflow) ... ok
+test_malformed_landmarks_do_not_crash_rendering (test_runtime.RuntimeTests.test_malformed_landmarks_do_not_crash_rendering) ... ok
+test_model_cache_corruption_and_atomic_download (test_runtime.RuntimeTests.test_model_cache_corruption_and_atomic_download) ... ok
+test_resize_and_record_actual_device (test_runtime.RuntimeTests.test_resize_and_record_actual_device) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 6.629s
+
+OK

@@ -1,0 +1,39 @@
+{
+  "test": "静态全身图片重复90帧；真实姿态模型冒烟，不是跌倒识别评估",
+  "image_filename": "care_pose_sample.jpg",
+  "resolution": [
+    640,
+    426
+  ],
+  "source_fps": 30,
+  "platform": "Windows-10-10.0.26200-SP0",
+  "python": "3.11.9",
+  "delegate": "cpu",
+  "summary": {
+    "session_id": "b80a94dd2d5943bc987b22fd967dfecf",
+    "source_kind": "video",
+    "completed": true,
+    "runtime": {
+      "device": "auto",
+      "model_variant": "lite",
+      "max_side": 640,
+      "opencv_threads": 2,
+      "effective_device": "cpu",
+      "fallback_reason": "当前平台使用 CPU；GPU delegate 官方支持限 Ubuntu"
+    },
+    "host": {
+      "platform": "Windows-10-10.0.26200-SP0",
+      "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+      "logical_cpus": 20
+    },
+    "opencv_threads_effective": 2,
+    "frames": 90,
+    "unknown_frames": 0,
+    "source_seconds": 2.966666666666667,
+    "event_count": 0,
+    "processing_seconds": 2.898753000000113,
+    "processing_fps": 31.04783332695007,
+    "timing_scope": "逐帧解码、推理、规则、标注、缓冲/事件写盘；不含模型初始化、界面节流、最后片段收尾"
+  },
+  "wall_seconds_including_initialization": 8.222806800000015
+}

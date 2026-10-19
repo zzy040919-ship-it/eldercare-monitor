@@ -1,0 +1,23 @@
+{
+  "visibility": 0.55,
+  "floor_y": 0.65,
+  "horizontal_angle": 60.0,
+  "hip_drop": 0.12,
+  "down_speed": 0.22,
+  "history_seconds": 1.2,
+  "confirm_seconds": 1.2,
+  "rearm_seconds": 1.5,
+  "cooldown_seconds": 8.0,
+  "low_activity_seconds": 4.0,
+  "motion_threshold": 0.025,
+  "zone": [
+    0.65,
+    0.2,
+    0.95,
+    0.95
+  ],
+  "zone_dwell_seconds": 0.5,
+  "max_gap_seconds": 0.5,
+  "pre_seconds": 3.0,
+  "post_seconds": 3.0
+}

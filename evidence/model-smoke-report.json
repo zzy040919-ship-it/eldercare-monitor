@@ -1,0 +1,25 @@
+{
+  "test": "静态全身图片重复90帧；真实姿态模型冒烟，不是跌倒识别评估",
+  "image_filename": "care_pose_sample.jpg",
+  "resolution": [
+    640,
+    426
+  ],
+  "source_fps": 30,
+  "platform": "Windows-10-10.0.26200-SP0",
+  "python": "3.11.9",
+  "delegate": "CPU",
+  "summary": {
+    "session_id": "c52014d3f7ea4994a82325cf0727d598",
+    "source_kind": "video",
+    "completed": true,
+    "frames": 90,
+    "unknown_frames": 0,
+    "source_seconds": 2.966666666666667,
+    "event_count": 0,
+    "processing_seconds": 5.427150100000119,
+    "processing_fps": 16.583289266312722,
+    "timing_scope": "逐帧解码、推理、规则、标注、缓冲/事件写盘；不含模型初始化、界面节流、最后片段收尾"
+  },
+  "wall_seconds_including_initialization": 11.82316689999999
+}

@@ -1,0 +1,12 @@
+{
+  "session_id": "68f18781ff5f4ed4b5546d035aedbacc",
+  "source_kind": "synthetic_landmarks",
+  "completed": true,
+  "frames": 201,
+  "unknown_frames": 10,
+  "source_seconds": 20.0,
+  "event_count": 3,
+  "processing_seconds": 1.463530299998638,
+  "processing_fps": 137.3391449430101,
+  "timing_scope": "逐帧解码、推理、规则、标注、缓冲/事件写盘；不含模型初始化、界面节流、最后片段收尾"
+}
